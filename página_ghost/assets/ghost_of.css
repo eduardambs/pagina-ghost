@@ -1,0 +1,120 @@
+.grid-conteudos{
+    display: flex;
+    flex-direction: row;
+}
+
+.grid-botao{
+    display: grid;
+    grid-template-columns: repeat(2fr, 1fr);
+}
+
+body{
+    background-color: #26221f;
+    margin-top: 20vh;
+    margin-left: 5vh;
+}
+
+.bloco_ghost{
+    width: 27vh;
+    border-radius: 20px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    padding-left: 1vh;
+    border: 2vh solid #252527;
+    background-color: #252527;
+    margin-left: 40vh;
+}
+
+.botao-com-link{
+    padding: 5vh;
+    background-color: #e58e27;
+    border-radius: 30px;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-style: none;
+    width: 10px;
+}
+
+.botao-com-link a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.subtitulo-ghost{
+    color: #fbfbfb;
+    margin-top: 2vh;
+    margin-left: 1vh;
+    font-weight: 600;
+}
+
+.grid-botao-ghost{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 7vh;
+}
+
+
+.botao-ghost{
+    border-radius: 25px;
+    text-align: center;
+    width: 14px;
+    height: 3px;
+    border-style: none;
+
+    color: #161a1e;
+    font-weight: 700;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-right: 3vh;
+    padding-left: 2vh;
+}
+
+.p-botao-ghost{
+    font-size: 22px;
+    color: #e58e27;
+    text-align: center;
+    margin-top: 2vh;
+    margin-right: 3vh;
+}
+
+
+.imagem_arredondada{
+    border-radius: 25px;
+}
+
+.bloco_texto{
+    width: 350px;
+    height:350px;
+    background-color: #252527;
+    border-radius: 3vh;
+    margin-left: 20vh;
+  
+    
+}
+
+.fonte_ghost{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    margin-left: 10px;
+}
+
+.fonte_ps4{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: rgb(87, 81, 81);
+    margin-left: 10px;
+
+}
+
+.fonte_texto{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color: white;
+    margin-top: -10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
